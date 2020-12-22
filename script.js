@@ -211,7 +211,7 @@ submitButton.addEventListener("click", function() {
   console.log("start")
 })
 
-// CLICK TO VIEW HIGH SCORES - DOES NOT WORK 
+// CLICK TO VIEW HIGH SCORES (SIP)
 score.addEventListener("click", function() {
   showHighScores();
   console.log("view high scores")
