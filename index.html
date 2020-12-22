@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <!--Link to CSS Styling -->
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <!--Link to Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Faster+One&family=Stint+Ultra+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header with timer & link to high scores page-->
+    <nav class="header">
+        <div class="card-body justify-content-end">
+            <a type="button" id="score" onclick="showHighScores()">View High Scores</a>
+            <a id="timer"></a>
+        </div>
+    </nav>
+
+    <!--Main Container -->
+    <main class="container">
+
+        <!--Coding Quiz Challenge Page-->
+        <div id="quizChallengePage">
+            <h1 id="start">Coding Quiz Challenge</h1>
+            <p id="explanation">Try to answer the following code-related questions within 80 seconds. Every incorrect answers will penalize your time by ten seconds"</p>
+            <div id="button">   
+                <button id="submitButton" class ="btn active" type="button">Start Quiz</button>
+            </div>
+        </div>
+
+        <!--Questions -->
+        <div id="quizQuestionsPage">
+            <h2 id="quizQuestionHeader"></h2>
+            <ul>
+                <li><button type="button" class="btn questionButton" id="one"></button></li>
+                <li><button type="button" class="btn questionButton" id="two"></button></li>
+                <li><button type="button" class="btn questionButton" id="three"></button></li>
+                <li><button type="button" class="btn questionButton" id="four"></button></li>
+                <!-- <li><button id="correct"></div> -->
+            </ul>
+                
+            <!--Response after user selects answer -->
+            <div id="answerResponse"></div>
+        </div>
+
+        <!--Final Score-->
+        <div id="finalScorePage">
+            <h2 id="allDone">All done!</h2>
+            <div id="finalScoreIs"></div>
+            <form class="row">
+                <!--Text saying enter initials-->
+                <div class="form-inline">
+                    <label for="text" id="initials" class="col col-form-label input-group"></label>
+                    <div> 
+                    <input type="text" class="col form-control" id="initialInput">
+                    <button id="initialButton" class="btn" type="button"></button></a>
+                </div>
+            </form>
+        </div>
+
+        <!--Buttons to either go back to main page or clear out the scores-->
+       <div id="highScoreButtons">
+            <h2 id="highScores">Highscores</h2>
+            <p id="highScoreList"></p>
+           <div class="col-sm-12 text-center">
+               <button id="goBack" class ="btn" type="button">Go Back</button></a>
+               <button id="clearHighScore" class ="btn" value="reset-form" type="button">Clear High Scores</button>
+           </div>
+       </div>
+
+    </main>
+
+<!--link to JavaScript Page -->
+<script src="script.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

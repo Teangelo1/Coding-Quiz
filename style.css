@@ -1,0 +1,154 @@
+/* Overall Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Josefin Sans", sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp4932374.jpg");
+}
+
+.body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold !important;
+    font-family: 'Faster One';
+}
+
+p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button {
+ text-align: center;
+}
+
+button {
+    text-align: center !important;
+    background-color: black !important;
+    border-color: black !important;
+    color: black !important;
+    font-size: 22px !important;
+    padding: 0px 12px 0px 12px !important;
+    font-family: cursive;
+}
+
+.btn:hover {
+    text-align: center !important;
+    background-color: red  !important;
+    border-color: black !important;
+    color: black !important;
+    font-size: 22px !important;
+    padding: 0px 12px 0px 12px !important;
+}
+
+#goBack, #clearHighScoreList{
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Nav Bar */
+ #score {
+    color: black; 
+    border-color: black;
+    border: solid 5px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+ #timer {
+    float: right;
+    padding-right: 15px; 
+ }
+
+/* Coding Quiz Challenge Page */
+
+.quizChallengePage {
+    align-items: center !important;
+    text-align: center !important; 
+}
+
+#explanation {
+    font-family: 'Stint Ultra Condensed';
+    font-size: 30px;
+}
+
+#quizQuestionHeader {
+    font-size: 25px;
+    font-weight: bolder; 
+    padding-top: 100px;
+    padding-left: 15%; 
+    padding-bottom: 15px; 
+}
+
+/* Quiz Question Page */
+li {
+    list-style-type: none;
+    padding-left: 15%; 
+   }
+
+.questionButton {
+    text-align: center !important;
+    background-color: black !important;
+    border-color: black !important;
+    color: tan !important;
+    font-size: 22px !important;
+    padding: 0px 12px 0px 12px !important;
+    margin: 5px; 
+}
+
+ #answerResponse {
+     font-style: italic;
+     color: grey;
+     font-size: 30px;
+     padding-left: 15%;  
+ }
+
+ /* High Score Page */
+
+ #finalScoreIs {
+    padding-left: 15% !important;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#highScores {
+    text-align: left;
+    padding-top: 150px;
+    font-weight: bolder; 
+    padding-top: none !important; 
+}
+
+#highScoreList {
+    background-color: lavender;
+    font-size: 20px;
+    padding-right: 75%;
+}
+
+#highScoreButtons {
+    margin-left: 15%; 
+    margin-right: 15%;
+}
+
+
+/* All Done Initial Page */
+
+.row {
+    align-items: center !important;
+    text-align: center !important; 
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}
+
+#allDone {
+    font-weight: bolder;
+    padding-top: 100px;
+    padding-left: 15% !important;
+}
