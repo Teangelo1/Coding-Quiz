@@ -36,9 +36,8 @@ p {
 
 button {
     text-align: center !important;
-    background-color: black !important;
     border-color: black !important;
-    color: black !important;
+    color: white !important;
     font-size: 22px !important;
     padding: 0px 12px 0px 12px !important;
     font-family: cursive;
@@ -46,9 +45,8 @@ button {
 
 .btn:hover {
     text-align: center !important;
-    background-color: red  !important;
     border-color: black !important;
-    color: black !important;
+    color: grey !important;
     font-size: 22px !important;
     padding: 0px 12px 0px 12px !important;
 }
@@ -60,9 +58,7 @@ button {
 
 /* Nav Bar */
  #score {
-    color: darkgreen; 
-    border-color: black;
-    border: solid 20px;
+    color: green;
     padding-left: 20px;
     font-size: 20px;
 }
@@ -70,6 +66,7 @@ button {
  #timer {
     float: right;
     padding-right: 15px; 
+    color: green;
  }
 
 /* Coding Quiz Challenge Page */
@@ -134,7 +131,7 @@ li {
 }
 
 #highScoreList {
-    background-color: lavender;
+    background-color: white;
     font-size: 20px;
     padding-right: 75%;
 }
