@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 0px;
     font-family: "Josefin Sans", sans-serif;
-    background-image: url("https://wallpapercave.com/wp/wp4932374.jpg");
+    background-image: url("https://64.media.tumblr.com/20b55d4d4bddb8de57cc560e4ccdbc50/7e7d66afe786310f-c3/s400x600/374a3640acc985973d8c459c33f83ce877996bf7.gifv");
+     background-size: cover;
+     background-position: middle center;
 }
 
 .body {
@@ -17,6 +19,9 @@ h1 {
     padding-top: 150px;
     font-weight: bold !important;
     font-family: 'Faster One';
+    color: white;
+
+
 }
 
 p {
@@ -55,9 +60,9 @@ button {
 
 /* Nav Bar */
  #score {
-    color: black; 
+    color: darkgreen; 
     border-color: black;
-    border: solid 5px;
+    border: solid 20px;
     padding-left: 20px;
     font-size: 20px;
 }
@@ -77,6 +82,7 @@ button {
 #explanation {
     font-family: 'Stint Ultra Condensed';
     font-size: 30px;
+    color: white;
 }
 
 #quizQuestionHeader {
@@ -85,6 +91,7 @@ button {
     padding-top: 100px;
     padding-left: 15%; 
     padding-bottom: 15px; 
+    color: white;
 }
 
 /* Quiz Question Page */
@@ -97,7 +104,7 @@ li {
     text-align: center !important;
     background-color: black !important;
     border-color: black !important;
-    color: tan !important;
+    color: white !important;
     font-size: 22px !important;
     padding: 0px 12px 0px 12px !important;
     margin: 5px; 
@@ -105,7 +112,7 @@ li {
 
  #answerResponse {
      font-style: italic;
-     color: grey;
+     color: white;
      font-size: 30px;
      padding-left: 15%;  
  }
