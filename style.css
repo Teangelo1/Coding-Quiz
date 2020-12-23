@@ -121,6 +121,7 @@ li {
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    color: white;
 }
 
 #highScores {
@@ -149,10 +150,12 @@ li {
     text-align: center !important; 
     padding-left: 15% !important;
     padding-right: 15% !important;
+    color: white;
 }
 
 #allDone {
     font-weight: bolder;
     padding-top: 100px;
     padding-left: 15% !important;
+    color: white;
 }
