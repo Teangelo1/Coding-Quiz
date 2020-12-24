@@ -32,5 +32,5 @@ Goal: Create a Timed Quiz with Coding related multiple choice questions that sto
 ![Final Page showing Score](/images/screenshot3.png)
 **Upon completing the quiz, the user will be shown a score with a prompt to enter initials.**
 
-**Here is the deployed URL:** [Coding Quiz]
+**Here is the deployed URL:** [Coding Quiz](https://teangelo1.github.io/Coding-Quiz/)
 >Coding is life guys!!
