@@ -25,11 +25,11 @@ Goal: Create a Timed Quiz with Coding related multiple choice questions that sto
 
 **Next the user then clicks on the "Start Quiz" button to get started.**
 
-![Coding Quiz Questions Page](/images/screenshot2.png)
+![Coding Quiz Questions Page](/images/Screenshot2.png)
 
 **The user will choose 1 of the 4 options, if correct answer is selected. The user will be alerted that the answer is "Correct!". If the user selects the wrong option, the "Wrong" alert will show and remove 10 seconds from the timer.**
 
-![Final Page showing Score](/images/screenshot3.png)
+![Final Page showing Score](/images/Screenshot3.png)
 **Upon completing the quiz, the user will be shown a score with a prompt to enter initials.**
 
 **Here is the deployed URL:** [Coding Quiz](https://teangelo1.github.io/Coding-Quiz/)
