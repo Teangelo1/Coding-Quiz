@@ -27,7 +27,7 @@ Goal: Create a Timed Quiz with Coding related multiple choice questions that sto
 
 ![Coding Quiz Questions Page](/images/screenshot2.png)
 
-**The user will choose one of the 4 options, if correct answer is selected. The user will be alerted that the answer is "Correct!". If the user selects the wrong option, the "Wrong" alert will show and remove 10 seconds from the timer.**
+**The user will choose 1 of the 4 options, if correct answer is selected. The user will be alerted that the answer is "Correct!". If the user selects the wrong option, the "Wrong" alert will show and remove 10 seconds from the timer.**
 
 ![Final Page showing Score](/images/screenshot3.png)
 **Upon completing the quiz, the user will be shown a score with a prompt to enter initials.**
