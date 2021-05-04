@@ -1,8 +1,8 @@
-#Coding Quiz meets JavaScript!
+#vCoding Quiz meets JavaScript!
 
 Goal: Create a Timed Quiz with Coding related multiple choice questions that stores high scores.
 
-##Developer: Teangelo Burks
+# Developer: Teangelo Burks
 
 **Criteria for the Coding Quiz:**
 
