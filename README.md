@@ -14,7 +14,7 @@ Goal: Create a Timed Quiz with Coding related multiple choice questions that sto
 
 * Upon finishing the quiz, User will recieve a score and a prompt asking to enter initials.
 
-###Languages used to create this coding quiz:
+### Languages used to create this coding quiz:
 * HTML
 * CSS
 * JavaScript
